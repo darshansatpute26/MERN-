@@ -1,0 +1,3 @@
+mongodb+srv://satputedarshan26104:YyzWDDhFrBQiOrf7@cluster0.3ccgf.mongodb.net/
+
+YyzWDDhFrBQiOrf7

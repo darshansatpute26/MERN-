@@ -1,0 +1,21 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  width: 300px;           
+  padding: 20px;          
+  border: 5px solid black; 
+  margin: 15px;           
+  background-color: rgb(230, 173, 173);
+}

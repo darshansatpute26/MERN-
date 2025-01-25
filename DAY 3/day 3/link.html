@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ass.css">
+</head>
+<body>
+    <h1 style="text-align: center;"><b>Myntra</b></h1>
+    <hr>
+    <header class="p-3 text-bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </header>
+      <h2 style="display: flex;"> Featured Product : </h2>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1508163356824-03f81a9d4e9b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://plus.unsplash.com/premium_photo-1664202526744-516d0dd22932?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://plus.unsplash.com/premium_photo-1664372599811-0aa42648d1e6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="container">
+        <div class="card">
+            <h2>Starting ₹129 | Myntra brands</h2>
+            <img src="https://www.decorpot.com/images/500618969Living-Room-Furniture-Essentials_Main.jpg" alt="Home Furnishing">
+            <ul>
+                <li>Min.55% off | Beds</li>
+                <li>Starting ₹189 | Home furnishing</li>
+                
+            </ul>
+            <a href="#">See all offers</a>
+        </div>
+        <div class="card">
+            <h2>Starting ₹349 | Bestselling headphones</h2>
+            <img src="https://cdn.pixabay.com/photo/2017/08/29/18/43/music-2694489_640.jpg" alt="Headphones">
+            <a href="#">See all offers</a>
+        </div>
+        <div class="card">
+            <h2>Up to 40% | Deals on mobiles and accessories</h2>
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8SEhAQEBAVFRUVERYQEBUQEBUVEBARFRUXFxYVFRYYHSggGBolGxgWITEhJSkrLi4uGB8zODMsNyguLisBCgoKDg0OGhAQGC0dIB0vLS0tKy0tLy0tLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0rKystLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAABQQGAQIDBwj/xABQEAABAwIDAgkFCgsFCQEAAAABAAIDBBESITEFBhMiMkFRYXGBsXJzkaHBBxQzNDV0grKz0SMlQlJUYqK0wtLTFSRTg/AWRGOSk6Ok4eJk/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAEDAgQF/8QAIhEBAQACAQQDAQEBAAAAAAAAAAECETEDEiFBBBMyUSMU/9oADAMBAAIRAxEAPwD2xCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBYc4AEk2AFyToAOcrKQ7/TuZs3aD2coUsobbUFzS3L0oKpvDv1Mb+9XtaCQ2NrWgyOJvYuLrhoNibAXFtVUnb/7Qgf8AG3PsbOxsidDi52guIcbdXpVR2HVSA4n6gucL9AjNvXdIqs48GekYI6yTxvXf0Ko9s2V7r2YbUwNJ5zC8sd3Rya9zlcNm7+7MmsPfAiP5tQODt1YjxfQV867t0/DyRU7nAYnlgJF7ANLtL9RTWppHRSyU7jctIwnpabW8Qg+kzODm1wta4tY4h0g9Ch7R2nFTtL55hG0WxOe9rWNvpcuNkp2DJJjIcCAGgNHVcLzP3c5nvkpY8VmYpnEcxkaI8N+5xt5RV0m3s9LtFj2tex7XtcLtcDxXDpDhcHuUoTDnuO649S8Q9w3akjXVVG8kxhrZmA6McXYXAdAN25dIPSvX4ZCDh5ubqKmjae6Yczh2jP0KLWVjY2l732ABcTcANaNXOJIACS008hnNwcIc8D12VO922peaXg2mzTUQsmt/h4HOF+rGGepZ27uh6Ls/bkEzRJFMyRhyDmuBaSNRjaS1MGzg5+sZj1L5y9yXaUkFe2DEeDnY4Pb+TiY0va+3TZrh9Je7wSYSLaOtfoz0KW3G6Nm5mHMR9y5yPsLlxt4pJPJJwtgDhDm36Oa6Ve6nVSM2bVcESHcCcxqGlzRIR/ll6xyztumsiybO23Tz4uAqI5cJwv4N7X4HdDiwmx7UwbLfm9BuF8t7ibRko9oUkkbuK+VkEgGQfFI4MII6iQe1q+lnSWIcO/rHOusrlhdb2SSpzpm8xF/DtC4yy2BOLIakexJNuzSYwGA2w3Nu0/cs7eqXtp3FnKwvLPLDDg/astJdxphglU28FO+R8LJ2OkZ8JHjY6SPymtN296ZR1YP/AMkFfI2z6yWnkhq43nGwiXFc3LtXBx5w4XB6Q4r6ggmxNEjegH0i9iuruGMxzn8PeHb0js0PoVK3w3krvfEWztm4OHfGaieWUHgqWC+FpsOU4uBFs+bLO4a7WmfZmAa55dirO7BLto7We7VrKGIdIHAOefSXJsnTjWXae8dIA50lJWs0LS10E7j0NI4vpUuD3Uo47f2jQVVJlnIYzNTX6pGa+hS6h3CVGHmjAH0jmT4BVP3Wtp7TpG00tC5zIrScO5kbXgO4uHhMTSA22LXLXqUl8us+ljJt6ZsbefZ9X8Vq4ZTa+Fsg4QX6WHjD0JuvlP8A2yp5iPfuy6eV1weFpcVLPf8AOLmZOPcF6fsLZ1cGRS7O2vO2OSNs0Uda0VEZY4XwEnNlr819CrtjMO7h64hU3YO9NW2aKj2pDGx8t201RTOcaWeQAkxEOziksCQDk6xt13JVzZrkIQhECEIQCEIQCr3uhj8WV/zd3sVhSHf0fi6t8w72IPnbZ7dfp/ZquRuLeK69hyS3UX1FucK0RCxHW4t9LbJEWgBwINxa1rWvfMFdOakUfFDXtcWYHBzXk2cH81rXz6vvTWGpfJM2R78bnZlxtxjdvQkGThG2+WN18wONYWzPd6002K0iXCeZwHVyh9yivofZTbSHs/iCrm+m7TasOY+9seJrm8pjwTZzb5XsXCxyIOoIBFqpW2eT1fxBa1gffiW5fGLuZl87W57aLqOKp26G7NNsuKeaee5e28kkgEYZG05ANxG2bhnc3JHUFa9j7Xp6lrZKeZsrQ7CS05g20cNQbW1VB92QvNI0AnDw8XC2/wAO0tr9WMs78KQe5HK+LaHAg3bJC7GAQQcIxMJI5xcj6RRZ58vXIm/hb/rO8HJNvjssTmVj24mPaGvbex0bYg8xBAIPMQNdFYGN447XeDlG2oHcYstiLRhxcnFawvbmuvNRR9y9yoaSV1U+Z0hwuZHwjWsEbSOMScRxGwIvkLYsui27F23SVALaapZLgIuGuuWi+R6SMtUi3+c73hWBnK4B2n5l28J+wH9115fuPI6CuoXxk8eRrCAQSWSHC4Otzc9uoKyd02s8voORvHv+s3xCxt6iErMBAILS1wcLtcDcEEc4IJBHQSu5Gf0h4hd5ubv9RXmz9tsXmW73uZQQ1TKp8znRxPEkUTmg4Xg3beS93gGxHFabga890ot4qKWaSmhqY3yNJxRhwxAjlAdNue17LO0zN73NyOF4P8i+HhsJthvnbHay+btlSvg4GpjccbHh443GD2Z6DMAjLPW5WmGN6m7bwW9r6W2q25/y/vWNswl8bQDY3JyOeg06+ddqsXz/AFB7VvVDijqPiFrjw36fp5afc2glqOEc9zIsfCSQtaODcb3Ia4m8bTnxbG1yAei8f2/RNn96++YxKQ38EXC9yOKOgOItlr1Lo8uDXGS2pyF/g75A9eHVeA7Uheaise9xxiqkx3dY3MjrEc/f2LueTqWdP8zl9GVYuGd/iq3uiP7/ALZ8uj/dQm2wKx0tHRzScp9O17z0uLQSfalm6Y/GG2vOUf7sib8yp+x7OmmceeR3jYKzxx9BuqpsB3Hm8676xVwZGLWF74Q49BuuY16l0Qba3O2dU3NRRxOJ1eGYJD/mMs71rSWBtMyNsLcLIw1rWtOQYy1hnfmCsYY7Pq1zS3azDgN26g2y9atZ4WbKd7oOFo5wyweyIzwOAsWzxfhInX6Q9rfWrZQ1IliilGkkbZB2OaHe1VZzr0knVBI09zXBO91PiND80g+yauoy604NEIQqxCEIQCEIQCRb9/J9b5k+IT1It+/k+t8yfEIPnx0dwR1+xKqukkuTa/WOfrsnLDr2+GSzZVFRc17XG7DY6gg9xHWrDsWIgtcRa7m2B11GqlmMLeEcZnlDxCD6BpGXeR+qfELM9O8aC6zQuvI7qaR9U+1MrKuVG3l2UZ2lj47tc0teDexB1B0PQcswQCDcLluRuVBROfOwPL3NLWmVwcWNOrW2a3LIai+QzV8LAuUwyQkL4Rx2eUfByKyjceTmind+EYOsn1FNLLCrFI23RTEDCw3GuVwR13yPZ1lKN0NxaeKcVQje0tJcxjnXijcb3wC2LnOpdb0L00sC0kbYKQ0it/iHiFJqIDq1RA7TreB67+wpsVlre2sIdpQvcwtwHuVOovc6pX1IqXteDj4V7AQIXyXvic3De5OZAIBPNqF6cWrVzVzMbLuVdlNWOV5P3rrPCSMugX61xrXWxdgHpNvapzdB2DwXox4bY3xCKtpn4SMPMqVUbiQ1MwklY9rsg4scGiRrcgJMjewyuC02AzOq9TIWhYundylmrCx9KAxsTLNDWYG2GQaABYDsVd3U+Udt+co/3ZWes/K8h3gq1umPxjtzzlH+7Kxx/HAbTipZKh0rrDhn2Azc43vkEypt+2Ft2xEi1rE8fw051QKqX33VzTfkGQiMfqjIHv171bdm7PaAMlhc7L4fSx+NjlhMs1t2ZvFTS2aHFhzyeLA5W1UraQuwd6rf9mtPMpdHO+O0UhuzRhP5J6OxdzL+vLn0McbvGo8R/u9WzoZIe4sP3FWDdT4jQ/NIPsmquSm3vtvTTvPoafvVj3U+I0PzOD7Jq0xeTr8miEIXTAIQhAIQhAJFv38n1vmT4hPUi37+T63zJ8Qg+f4tD5R8St1zgOR7T4ldVUCzHym+UPELCI+U3yh4oPf9m/Cv7PYxNQlOzR+Ff2HvyYm4VSBcKjRd1wqdFAsp/hY/pJwktMfwseuV75ZZg2z7inSxpAuc2i6LnNoil51Z5weBThJjqzzl9Mraa94TlZe609MrSTRbrSTRAl2hz/R+uEwZoOweCW7Q5+1ug6HXPqBTKPQdg8Ftjw2x4bLDllYcqpbWC+IXAu0i50F8rqn7Llw1O8bxqG0xHb70Nlb6z8ryHeCplA28+8g6qb91Q9wi3ah0V5ohoqXsI2AVyopF5/b7WV3gbRBZqIQ4ELSJy64lo8F3KR1jzxideBmjd28G7/0rRup8RofmkH2TVUtrPtwvkl3pa4H2K27qfEaH5pB9k1aYcPJ8qasNEIQu3lCEIQCEIQCRb9fJ9Z5k+IT1It+vk+s8yfEIPAW6nu8FstW6nu8FsqgXMScZls+O0Hqz51u5Lhy2eW36wQfStF8L9B3i1MktovhfoO8WpkrUgUWsdkelSksrDqoOVPyo/KP1XJslFJrF2/wuTZY0jK41ByXVQ6o6orlEcvpD6wTZJ6fkjyx9YJwsvdaBaSnJbqNVexLVLZjy/J+9T49B2DwS5/5fZ96Yx6DsHgtcfy1nDZavK2XKoK6WIEzcRc3QFpFxrna6qu78eKq3ib0+9h/4hVojPHPk+0KtbtTiOs2+852fSZdJNNYD0lIZeLFc2bGQFYKGey50dBystCR60TU5bmF5rX1unZT+GVdHypFS1lsiu09aLapMnV6O6g7Wmu6UD/DKvm6nxGh+aQfZNXnFEeFlm6BE9x7Gse7xAXo+6nxGh+ZwfZNXo6fD5Xzf3o0QhC0eIIQhAIQhAJDv6bbOrT0QOPgnyQb/APybXeYd7EHgELr3v1LquNNof9dK7KoFD97uxsI0xt+sFMWGcpnlDxQfQGzXkyG/5rvFqbJPsv4Q+S7xanCqQJfXRnOyYKJWaIFtE444weY/wFOkko/hGeV/AU6WFIyotWxSVxqNFFQIHEWH6w+snaRx6jtH1k8WU5rT0FwqW3C7LnNorVI53EEjpGf+u9NY9B2DwSmr5XcU1j0HYPBa48NZxG65zNuFutXrpSxjSHnyfaFTNmH+/bXZ+dU0d+xtKT4kK7Hld3tCo+xvlTaY/wCLTH/xmp6L5sWuCms6QfrX9IusVFICEwwce/S0HvGX3LeRixyxejDq2KXtCjLcwklXO4ZK+1tOCqxtOhGaxs1X0ul1e6MbjsvHtF51FOWjva/7l6Bun8RofmcH2TVT9zYLU20T0sI9Eb/vVw3T+I0PzOD7Jq9nT/MfF+Xf9aaIQhdvKEIQgEIQgEg3/wDk6u8w72J+kW/Y/F9b5k+IQfPlLp/rrXdcoha4HV7V0VRlas5TPKHiFlYZymeU3xCD3/Zfwh8l3i1OEqoGgS5fmOP7TU0VSMqJWaKUolbooFtH8I3yv4CnSUUzRjjPS7P/AJXJusaQLhU6Luo9TooqBHqO0fWTxJoWiwPPiA/aCcrL3WnoLnPoui5T6KqR1XK7imsejeweCWytBxHoGXoKZRaN7B4LXHhrjxGy1fotlpIulQByz2e0KkbGH4y2of8Aj0w9NKPuV2vxz2e0KmbJH992w7oqqL0GlI+5PSX0vcgyY7oNu4/+wFu4IhbiZbpHr5lox+Weuh7VzVxR6hqQbVbkVYKgqt7aksD6AvPm+h8cw3ZgtQVTvzhMe4R29hT/AHT+I0PzOD7JqW7Ky2fMznZHMw9uAuPimO6fxGh+ZwfZNXrwmsY+X18t52mqEIXTEIQhAIQhAJFv38n1vmT4hPUh39+Tq3zDvYg+f4zm7uXRcKc8ru8F2VRlas5TPKHiFlYZymeUPEIPoKhP4X6DvrNTVJtmuvKfNu+s1OFUjKhVuimKFXaIIVMeNF5X8Lk3SWldx4vKP1XJ0sKQKPVaKQo1VooqLCeKPLH1gnKRxHIeWPrBPFl7rScBcajRdlxqNEUnlPL7PYUxi0b2DwSqody/J9hTWLkt7B4LfHhrjw2Wsmi2WkmiqlxPHPZ7QqpsJl6jeE/myUTx9GAE+q6tEh43d9ySbjRh9bt5p0c6kaew0pCsc5XWlo2dJdo7FvWU7jx2a84/O7OtL9hyHDhOrSWnqIyKdsK55hb25bis1dYRkQQegg3XOg2W97hNK3C1ubGu1c7mJHMArYuM+i4+ub3W3/Te3tk0RUL7R7RZ0RueO+NwPgE33T+I0PzOD7JqSQ8qvH/5HH1OTvdP4jQ/M4PsmrXHh5er+jRCELpmEIQgEIQgEg3/APk2u8w72J+k++dE6egroWC730srWDpfgOEemyD50pDys75jTsUhKtiYwHh4tezm9YzB9npTRVGVqzlM8oeIWVylNsx2oPoDZNuFPGB4h08pqdqmboSScK17s2SxXYeY3s4eq6uSrllQa7RTVBrtEUtorcJHmOUcufkuT1U6ibK2pa88jhD3B1wPEK4rCkCj1eikKNV6KKgQ2yzHLH1gnyp8jZMeJubQ5pPcb+xW8G+Y7Vlea1nDK41Gi7LhU6IENURxrkDLn704j0HYPBVfbcMrnDg+gg/671ZKOTExh6Wi/UbZj0rbHhtjw7LWTRbLSXRdKUznja2y5+5Kvc/+P7bzvx6P92UjbTHm2DW/qsl+48vA7TrYZLh9TS09RGDo40+OGQA9Niw21srGefBrPOWVMhbkDOGFuHI4hm6/aL261Y4nZKLtjZLX3lY38KLOFiePh5iNL25+xc9nVYc0KcU5hkom0ZS1vFF3EhrQcgXONhddw9QNryN4Nwdpa/XlmESTyXUTHFu0XvFiIDGbaXDHk29Scbp/EaH5nB9k1KqxwpNl1c0mR97yykHUucwhje08QdpT7YtKYqemiOscEcZ7WMa0+C6nDjO7qYhCFXAQhCAQhCAWVhCDyvfn3PqguMmz42PBcXGNzxG+MnXATxXN6iRbr5qrHuNtm3GoHA/OKYj7Ve/IQeB/7C7Y/QXf9em/qrR+4W2D/uLv+vTf1V7+hB5luhFtqmiFNPs172NN4ZG1FNjizvhIMmYB06NLEaXSlrKkj8JRyA/qvhIP/cyTlCu00W++Zf0aX0w/1FGqnTOGVNL6Yf6idoTZpVohVsxD3m9wOoL4R6+EUykqarSSjk6iHwk26+PqnqFzZKaK+Hl/RpfTF/UXGd8xGVNL6Yv506Qp2xVXgFWxxc2leQciC6HP9vVT6WqqRk6kkDeYY4iW9XL0TlC5vTlWXSD75k/R5f8At/zrnNNIRlTyemP+dMkKfVF7lZdFUhwc2mebdLorEdHLXSOarDviTw05kCSLI9I46sSF1MJFmdhQJZf0aX0xfzrD3Sn/AHeT0xfzpwhddq/bVXmpqkkObTvuDcXdF/OlG9OwKmr4J7IJIJ4XY6eohkixxuIsci/jNIyLecBX9CaT7K82Y3e1oAD6R9ssUkIa93W4MdhB7FHFJvYHOc33mMRuQGOw4uc2xaleooTSdzzUN3u6KH/kf/Mo89DvU9zXPbQusQ7CRJhJGlwHZr1JCaO6qHQbv7Vq5Yn7XnjEMMgmbTUrMMc0zDdjpXFxLmtOeHQkBX1YQq5CEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQCEIQf/9k=">
+            <a href="#">See all offers</a>
+        </div>
+        <div class="card">
+            <h2>Starting ₹99 | Deals on costumes, toys & more</h2>
+            <img src="https://c8.alamy.com/comp/ERFYWP/children-in-fancy-costume-dress-going-trick-or-treating-ERFYWP.jpg" alt="Costumes">
+            <ul>
+                <li>Starting ₹199 | Educational toys</li>
+        
+            </ul>
+            <a href="#">See all offers</a>
+        </div>
+    </div>
+<footer class="bg-body-tertiary text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2020 Copyright:
+        <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+</footer>
+</body>
+</html>

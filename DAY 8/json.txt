@@ -1,0 +1,17 @@
+{
+  "message": "Welcome to the product page!",
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 1200,
+      "description": "A high-performance laptop for developers."
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 800,
+      "description": "A sleek and powerful smartphone."
+    }
+  ]
+}
